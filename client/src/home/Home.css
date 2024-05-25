@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.home {
+    background-image: url('../assets/game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.play {
+    display: flex;
+    padding-top: 31%;
+    padding-left: 60%;
+}
+
+.waiting {
+    background-color: #4B495F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    width: 28%;
+    font-family: "Happy Monkey", system-ui;
+    border-radius: 50px;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    padding: 5px;
+    background-color: #9e67bf;
+    color: white;
+    
+}

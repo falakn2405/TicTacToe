@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.game {
+    background-color: #1f1f2f;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+  
+.heading {
+    background-color: #4B495F;
+    padding: 5px 20px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    font-family: "Happy Monkey", system-ui;
+}
+  
+.sq-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+  
+.detection {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.finish {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.left, .right {
+    width: 145px;
+    height: 35px;
+    background-color: #4B495F;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-top: 13px;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+
+.current-move-cross {
+    background-color: #3fa7f0 !important;
+}
+  
+.current-move-circle {
+    background-color: #dd7f9f !important;
+}
+
+.chat-container {
+    margin-top: 20px;
+    width: 20%;
+    justify-content: right;
+}
+
+.messages {
+    height: 200px;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 5px;
+}
+
+.message.self {
+    text-align: right;
+    color: blue;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #45a049;
+}
